@@ -7,8 +7,13 @@
 ```
 $ pip install -r requirements.txt
 ``` 
+3. Run Tests
 
-5. Run the server:
+```
+$ python -m unittest discover
+``` 
+
+4. Run the server:
     * `$ export FLASK_APP=app.py`
     * `$ export FLASK_DEBUG=1`
     * `$ flask run ` 
